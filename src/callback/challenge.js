@@ -1,5 +1,5 @@
 let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
-let API = 'https://rickandmortyapi.com/api/character/';
+const API = 'https://rickandmortyapi.com/api/character/';
 
 function fetchData(urlApi, callback) {
     let xhttp = new XMLHttpRequest();
